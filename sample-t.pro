@@ -15,4 +15,10 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    utils.cpp \
+    sample.cpp
+
+HEADERS += \
+    utils.h \
+    sample.h
